@@ -87,4 +87,4 @@ it('should count and reset all the things', () => {
   userEvent.click(resetButton)
   expect(counter).toHaveTextContent('0')
   expect(counter).toHaveStyle(`color: ${pink}`)
-})
+}) 
